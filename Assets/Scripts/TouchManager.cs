@@ -1,11 +1,10 @@
-﻿using System.Collections;
+﻿// This script handles touch events and sends messages to other game objects
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class TouchManager : MonoBehaviour {
 
-//	public LayerMask touchMask;
-	
 	void Update () {
 	// For testing in unity editor
 	#if UNITY_EDITOR
@@ -34,6 +33,7 @@ public class TouchManager : MonoBehaviour {
 				Ray ray = Camera.main.ScreenPointToRay (touch.position);
 				RaycastHit hit;
 
+				// 4 phases of a touch event
 				if (Physics.Raycast (ray, out hit)) {
 					GameObject recipient = hit.transform.gameObject;
 
