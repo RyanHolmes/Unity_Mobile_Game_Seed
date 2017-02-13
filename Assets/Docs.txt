@@ -1,8 +1,16 @@
 Tag uses
 Layer uses (for collision, culling, and raycasting – essentially, what should be in what layer)
 GUI depths for layers (what should display over what)
+
 Scene setup
+	Screen Resolution setup - done for every scene
+	1a. GameObject -> Create Force Camera Ratio Object
+	1b. Set ratios for newly created object in the editor
+
+	Set up touch manager
+	1. Attach TouchManager script to main camera in each scene
+
 Prefab structure of complicated prefabs
 Idiom preferences
 Build setup
-Nameppaces
+Namespaces
