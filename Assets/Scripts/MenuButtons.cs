@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+//TODO: Make fade out work
+
 public class MenuButtons : MonoBehaviour {
 
 	public void ClickPlay(){

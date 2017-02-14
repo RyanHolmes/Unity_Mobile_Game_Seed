@@ -6,10 +6,10 @@ public class SceneFade : MonoBehaviour {
 
 	public Texture2D fadeOutTexture;
 	public float fadeSpeed;
+	public int fadeDirection = -1;
 
 	private int drawDepth = -1000;
 	private float alpha = 1;
-	private int fadeDirection = -1;
 
 	// Use this for initialization
 	void OnGUI(){

@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 using UnityEngine;
 
+//Literally just a timer so I can display the logo for a while
+
 public class Load : MonoBehaviour {
 
 	public float loadTime = 5;
