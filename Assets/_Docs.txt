@@ -10,6 +10,14 @@ Scene setup
 	Set up touch manager
 	1. Attach TouchManager script to main camera in each scene
 
+	Camera setup for dynamic UI
+	1. Make render mode of canvas that houses menu "Screen Space - Camera"
+	2. Drag Main Camera onto "Render Camera" attribute in canvas editor
+
+	Scene Fading
+	1. Add the SceneFade script to any global object in the scene if you want a fadeIn effect when the scene is loaded
+	2. Attach a black image to the texture in the editor and set the fadeSpeed to an input from 0-1
+
 Prefab structure of complicated prefabs
 Idiom preferences
 Build setup
